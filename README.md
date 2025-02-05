@@ -51,7 +51,7 @@ Create a container named rustdesk with a private IP address 10.0.0.2. Take on mi
 ```sh
 # appjail makejail -f gh+alonsobsd/rustdesk-server-makejail -j rustdesk -- --network rustdesk-net --server_ip 10.0.0.2
 ```
-When it is done you will see credentials info for connect a supported rust desktop client to RustDesk Server.
+When it is done you will see credentials info for connect a supported RustDesk client to RustDesk Server.
 
 ```sh
  ################################################ 
